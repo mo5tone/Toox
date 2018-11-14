@@ -10,6 +10,18 @@
 		55B3F9E52182EB0800B8FC1D /* Toox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 55B3F9DB2182EB0800B8FC1D /* Toox.framework */; };
 		55B3F9EA2182EB0800B8FC1D /* TooxTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55B3F9E92182EB0800B8FC1D /* TooxTests.swift */; };
 		55B3F9EC2182EB0800B8FC1D /* Toox.h in Headers */ = {isa = PBXBuildFile; fileRef = 55B3F9DE2182EB0800B8FC1D /* Toox.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		55B3F9F72182EDEA00B8FC1D /* FontRepresentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55B3F9F62182EDEA00B8FC1D /* FontRepresentable.swift */; };
+		55B3F9FA2182EF0400B8FC1D /* Date.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55B3F9F92182EF0400B8FC1D /* Date.swift */; };
+		55B3F9FC2182F0CA00B8FC1D /* CALayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55B3F9FB2182F0CA00B8FC1D /* CALayer.swift */; };
+		55B3F9FE2182F18F00B8FC1D /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55B3F9FD2182F18F00B8FC1D /* String.swift */; };
+		55B3FA002182F2A600B8FC1D /* UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55B3F9FF2182F2A600B8FC1D /* UIView.swift */; };
+		55B3FA022182FD8B00B8FC1D /* Bundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55B3FA012182FD8B00B8FC1D /* Bundle.swift */; };
+		55B3FA042183014700B8FC1D /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55B3FA032183014700B8FC1D /* Data.swift */; };
+		55B3FA06218301EC00B8FC1D /* Dictionary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55B3FA05218301EC00B8FC1D /* Dictionary.swift */; };
+		55B3FA08218304BE00B8FC1D /* OperatingSystemVersion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55B3FA07218304BE00B8FC1D /* OperatingSystemVersion.swift */; };
+		55B3FA0A2183075A00B8FC1D /* UIImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55B3FA092183075A00B8FC1D /* UIImage.swift */; };
+		55B3FA0C21830A2200B8FC1D /* UIWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55B3FA0B21830A2200B8FC1D /* UIWindow.swift */; };
+		55B3FA0E21830D1000B8FC1D /* UIButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55B3FA0D21830D1000B8FC1D /* UIButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +41,18 @@
 		55B3F9E42182EB0800B8FC1D /* TooxTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TooxTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		55B3F9E92182EB0800B8FC1D /* TooxTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TooxTests.swift; sourceTree = "<group>"; };
 		55B3F9EB2182EB0800B8FC1D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		55B3F9F62182EDEA00B8FC1D /* FontRepresentable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontRepresentable.swift; sourceTree = "<group>"; };
+		55B3F9F92182EF0400B8FC1D /* Date.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Date.swift; sourceTree = "<group>"; };
+		55B3F9FB2182F0CA00B8FC1D /* CALayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CALayer.swift; sourceTree = "<group>"; };
+		55B3F9FD2182F18F00B8FC1D /* String.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = String.swift; sourceTree = "<group>"; };
+		55B3F9FF2182F2A600B8FC1D /* UIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIView.swift; sourceTree = "<group>"; };
+		55B3FA012182FD8B00B8FC1D /* Bundle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bundle.swift; sourceTree = "<group>"; };
+		55B3FA032183014700B8FC1D /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
+		55B3FA05218301EC00B8FC1D /* Dictionary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dictionary.swift; sourceTree = "<group>"; };
+		55B3FA07218304BE00B8FC1D /* OperatingSystemVersion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OperatingSystemVersion.swift; sourceTree = "<group>"; };
+		55B3FA092183075A00B8FC1D /* UIImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImage.swift; sourceTree = "<group>"; };
+		55B3FA0B21830A2200B8FC1D /* UIWindow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIWindow.swift; sourceTree = "<group>"; };
+		55B3FA0D21830D1000B8FC1D /* UIButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +95,8 @@
 		55B3F9DD2182EB0800B8FC1D /* Toox */ = {
 			isa = PBXGroup;
 			children = (
+				55B3F9F82182EEE900B8FC1D /* Extension */,
+				55B3F9F52182EDD300B8FC1D /* Protocol */,
 				55B3F9DE2182EB0800B8FC1D /* Toox.h */,
 				55B3F9DF2182EB0800B8FC1D /* Info.plist */,
 			);
@@ -84,6 +110,32 @@
 				55B3F9EB2182EB0800B8FC1D /* Info.plist */,
 			);
 			path = TooxTests;
+			sourceTree = "<group>";
+		};
+		55B3F9F52182EDD300B8FC1D /* Protocol */ = {
+			isa = PBXGroup;
+			children = (
+				55B3F9F62182EDEA00B8FC1D /* FontRepresentable.swift */,
+			);
+			path = Protocol;
+			sourceTree = "<group>";
+		};
+		55B3F9F82182EEE900B8FC1D /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				55B3F9F92182EF0400B8FC1D /* Date.swift */,
+				55B3F9FB2182F0CA00B8FC1D /* CALayer.swift */,
+				55B3F9FD2182F18F00B8FC1D /* String.swift */,
+				55B3F9FF2182F2A600B8FC1D /* UIView.swift */,
+				55B3FA012182FD8B00B8FC1D /* Bundle.swift */,
+				55B3FA0D21830D1000B8FC1D /* UIButton.swift */,
+				55B3FA032183014700B8FC1D /* Data.swift */,
+				55B3FA05218301EC00B8FC1D /* Dictionary.swift */,
+				55B3FA07218304BE00B8FC1D /* OperatingSystemVersion.swift */,
+				55B3FA092183075A00B8FC1D /* UIImage.swift */,
+				55B3FA0B21830A2200B8FC1D /* UIWindow.swift */,
+			);
+			path = Extension;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -148,6 +200,7 @@
 				TargetAttributes = {
 					55B3F9DA2182EB0800B8FC1D = {
 						CreatedOnToolsVersion = 10.0;
+						LastSwiftMigration = 1000;
 					};
 					55B3F9E32182EB0800B8FC1D = {
 						CreatedOnToolsVersion = 10.0;
@@ -194,6 +247,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				55B3FA042183014700B8FC1D /* Data.swift in Sources */,
+				55B3FA0A2183075A00B8FC1D /* UIImage.swift in Sources */,
+				55B3FA06218301EC00B8FC1D /* Dictionary.swift in Sources */,
+				55B3FA002182F2A600B8FC1D /* UIView.swift in Sources */,
+				55B3FA0C21830A2200B8FC1D /* UIWindow.swift in Sources */,
+				55B3FA022182FD8B00B8FC1D /* Bundle.swift in Sources */,
+				55B3FA08218304BE00B8FC1D /* OperatingSystemVersion.swift in Sources */,
+				55B3F9FC2182F0CA00B8FC1D /* CALayer.swift in Sources */,
+				55B3F9F72182EDEA00B8FC1D /* FontRepresentable.swift in Sources */,
+				55B3F9FE2182F18F00B8FC1D /* String.swift in Sources */,
+				55B3F9FA2182EF0400B8FC1D /* Date.swift in Sources */,
+				55B3FA0E21830D1000B8FC1D /* UIButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -341,6 +406,7 @@
 		55B3F9F02182EB0800B8FC1D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -358,6 +424,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = me.mo5tone.Toox;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -366,6 +433,7 @@
 		55B3F9F12182EB0800B8FC1D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -391,6 +459,7 @@
 		55B3F9F32182EB0800B8FC1D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 8ZATFQ33TG;
 				INFOPLIST_FILE = TooxTests/Info.plist;
@@ -409,6 +478,7 @@
 		55B3F9F42182EB0800B8FC1D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 8ZATFQ33TG;
 				INFOPLIST_FILE = TooxTests/Info.plist;
