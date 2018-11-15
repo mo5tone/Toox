@@ -14,15 +14,20 @@ extension String {
     /// Convert String to Date
     ///
     /// - Parameters:
-    ///   - format: default is "yyyy-MM-dd HH:mm:ss"
+    ///   - formats: variadic parameter for dateFormats
     ///   - local:  defailt is .current
     ///   - secondsFromGMT: defailt is TimeZone.current.secondsFromGMT()
     /// - Returns: Date value of a String
-    public func date(ofFormat format: String = "yyyy-MM-dd HH:mm:ss", local: Locale = Locale.current, secondsFromGMT: Int = TimeZone.current.secondsFromGMT()) -> Date? {
+    public func date(ofFormats formats: String..., local: Locale = .current, secondsFromGMT: Int = TimeZone.current.secondsFromGMT()) -> Date? {
         let formatter = DateFormatter()
         formatter.locale = local
         formatter.timeZone = TimeZone(secondsFromGMT: secondsFromGMT)
-        formatter.dateFormat = format
-        return formatter.date(from: self)
+        for format in formats {
+            formatter.dateFormat = format
+            if let date = formatter.date(from: self) {
+                return date
+            }
+        }
+        return nil
     }
 }
