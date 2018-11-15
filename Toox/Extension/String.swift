@@ -19,6 +19,17 @@ extension String {
     ///   - secondsFromGMT: defailt is TimeZone.current.secondsFromGMT()
     /// - Returns: Date value of a String
     public func date(ofFormats formats: String..., local: Locale = .current, secondsFromGMT: Int = TimeZone.current.secondsFromGMT()) -> Date? {
+        return date(ofFormats: formats, local: local, secondsFromGMT: secondsFromGMT)
+    }
+
+    /// Convert String to Date
+    ///
+    /// - Parameters:
+    ///   - formats: string array for dateFormats
+    ///   - local: defailt is .current
+    ///   - secondsFromGMT: defailt is TimeZone.current.secondsFromGMT()
+    /// - Returns: Date value of a String
+    public func date(ofFormats formats: [String], local: Locale = .current, secondsFromGMT: Int = TimeZone.current.secondsFromGMT()) -> Date? {
         let formatter = DateFormatter()
         formatter.locale = local
         formatter.timeZone = TimeZone(secondsFromGMT: secondsFromGMT)
