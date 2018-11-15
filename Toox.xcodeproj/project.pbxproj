@@ -22,6 +22,7 @@
 		55B3FA0A2183075A00B8FC1D /* UIImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55B3FA092183075A00B8FC1D /* UIImage.swift */; };
 		55B3FA0C21830A2200B8FC1D /* UIWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55B3FA0B21830A2200B8FC1D /* UIWindow.swift */; };
 		55B3FA0E21830D1000B8FC1D /* UIButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55B3FA0D21830D1000B8FC1D /* UIButton.swift */; };
+		55FDD7B8219D433B00F0CFF4 /* Array.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55FDD7B7219D433B00F0CFF4 /* Array.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		55B3FA092183075A00B8FC1D /* UIImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImage.swift; sourceTree = "<group>"; };
 		55B3FA0B21830A2200B8FC1D /* UIWindow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIWindow.swift; sourceTree = "<group>"; };
 		55B3FA0D21830D1000B8FC1D /* UIButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIButton.swift; sourceTree = "<group>"; };
+		55FDD7B7219D433B00F0CFF4 /* Array.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Array.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -134,6 +136,7 @@
 				55B3FA07218304BE00B8FC1D /* OperatingSystemVersion.swift */,
 				55B3FA092183075A00B8FC1D /* UIImage.swift */,
 				55B3FA0B21830A2200B8FC1D /* UIWindow.swift */,
+				55FDD7B7219D433B00F0CFF4 /* Array.swift */,
 			);
 			path = Extension;
 			sourceTree = "<group>";
@@ -256,6 +259,7 @@
 				55B3FA08218304BE00B8FC1D /* OperatingSystemVersion.swift in Sources */,
 				55B3F9FC2182F0CA00B8FC1D /* CALayer.swift in Sources */,
 				55B3F9F72182EDEA00B8FC1D /* FontRepresentable.swift in Sources */,
+				55FDD7B8219D433B00F0CFF4 /* Array.swift in Sources */,
 				55B3F9FE2182F18F00B8FC1D /* String.swift in Sources */,
 				55B3F9FA2182EF0400B8FC1D /* Date.swift in Sources */,
 				55B3FA0E21830D1000B8FC1D /* UIButton.swift in Sources */,
