@@ -19,7 +19,7 @@ extension CALayer {
     ///   - offset: shadow offset, default is .zero
     ///   - blur: shadow radius, default is 4
     ///   - spread: shadow path
-    public func sketchShadow(with color: UIColor = .black, alpha: Float = 0.5, offset: CGSize = .zero, blur: CGFloat = 4, spread: CGFloat = 0) {
+    public func addSketchShadow(withColor color: UIColor = .black, alpha: Float = 0.5, offset: CGSize = .zero, blur: CGFloat = 4, spread: CGFloat = 0) {
         shadowColor = color.cgColor
         shadowOpacity = alpha
         shadowOffset = offset

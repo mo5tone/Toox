@@ -48,7 +48,7 @@ extension UIImage {
     ///
     /// - Parameter color: new color
     /// - Returns: new image with color
-    public func rendered(with color: UIColor) -> UIImage? {
+    public func renderedImage(ofColor color: UIColor) -> UIImage? {
         UIGraphicsBeginImageContextWithOptions(size, false, scale)
         var rendered: UIImage?
         if let context = UIGraphicsGetCurrentContext(), let cgImage = self.cgImage {
@@ -67,9 +67,9 @@ extension UIImage {
     ///
     /// - Parameter newSize: destination size
     /// - Returns: new image with size
-    public func scaled(to newSize: CGSize) -> UIImage? {
-        UIGraphicsBeginImageContextWithOptions(newSize, false, 0.0)
-        draw(in: CGRect(origin: CGPoint.zero, size: newSize))
+    public func scaledImage(ofSize size: CGSize) -> UIImage? {
+        UIGraphicsBeginImageContextWithOptions(size, false, 0.0)
+        draw(in: CGRect(origin: CGPoint.zero, size: size))
         let newImage = UIGraphicsGetImageFromCurrentImageContext()
         UIGraphicsEndImageContext()
         return newImage
@@ -82,7 +82,7 @@ extension UIImage {
     ///   - offset: shadow offset
     ///   - blur: shadow path
     /// - Returns: An Image with shadow
-    public func addShadow(with color: UIColor = .black, offset: CGSize = .zero, blur: CGFloat = 0) -> UIImage? {
+    public func shadowedImage(ofColor color: UIColor = .black, offset: CGSize = .zero, blur: CGFloat = 0) -> UIImage? {
         let colorSpace = CGColorSpaceCreateDeviceRGB()
         let heightOfShadowed = size.height + blur + ((abs(offset.height) > blur / 2) ? abs(offset.height) - blur / 2 : 0)
         let widthOfShadowd = size.width + blur + ((abs(offset.width) > blur / 2) ? abs(offset.width) - blur / 2 : 0)

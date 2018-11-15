@@ -15,7 +15,7 @@ extension UIButton {
     ///   - space: space between image and title
     ///   - direction: direction of image and title layout, default is 0: horizontal, otherwise: vertical
     ///   - reversed: false is image at left or top, otherwise right or bottom
-    public func setEdgeInsets(with space: CGFloat = 0, direction: Int = 0, reversed: Bool = false) {
+    public func setEdgeInsets(space: CGFloat = 0, direction: Int = 0, reversed: Bool = false) {
         layoutIfNeeded()
         guard let sizeOfImage = imageView?.frame.size, let sizeOfTitle = titleLabel?.frame.size else { return }
         var imageInsets: UIEdgeInsets = .zero

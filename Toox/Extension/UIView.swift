@@ -16,7 +16,7 @@ extension UIView {
     /// - Parameters:
     ///   - radius: corner radius
     ///   - corners: corners rounded, default is .allCorners
-    public func corner(of radius: CGFloat, corners: UIRectCorner = .allCorners) {
+    public func addCorner(withRadius radius: CGFloat, corners: UIRectCorner = .allCorners) {
         if corners == .allCorners {
             layer.cornerRadius = radius
             layer.masksToBounds = true
@@ -34,7 +34,7 @@ extension UIView {
     ///   - width: border width
     ///   - color: border color
     ///   - edges: edges to draw borders, default is .all
-    public func border(of width: CGFloat, color: UIColor = .white, edges: UIRectEdge = .all) {
+    public func addBorder(withWidth width: CGFloat, color: UIColor = .white, edges: UIRectEdge = .all) {
         if edges == .all {
             layer.borderWidth = width
             layer.borderColor = color.cgColor
